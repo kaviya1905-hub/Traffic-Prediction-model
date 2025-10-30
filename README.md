@@ -16,10 +16,10 @@
 &nbsp;
 
 # Dataset Details
-Source: METR-LA public dataset – traffic speed readings from 207 LA highway sensors, 34,272 timesteps.
-Format: HDF5 file (`METR-LA.h5`), loaded as a DataFrame.
-Usage:  Example uses the first sensor for univariate LSTM modeling (edit for multivariate support).
-
+-Source: METR-LA public dataset – traffic speed readings from 207 LA highway sensors, 34,272 timesteps.
+-Format: HDF5 file (`METR-LA.h5`), loaded as a DataFrame.
+-Usage:  Example uses the first sensor for univariate LSTM modeling (edit for multivariate support).
+-Link: https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
 # Trained Model File
 - Final trained model is saved as:  
 
