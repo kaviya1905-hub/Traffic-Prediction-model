@@ -33,7 +33,7 @@ Usage:  Example uses the first sensor for univariate LSTM modeling (edit for mul
 
 **`traffic\_lstm\_model.pth`**
 
-# Results**
+# Results
 -Uploaded as screenshot
 
 # Training and Data Inspection
