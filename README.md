@@ -10,18 +10,10 @@
 2. Place the METR-LA dataset (`METR-LA.h5`) in:
 **D:\\OneDrive\\Documents\\Traffic prediction model\\METR-LA.csv\\**
 3. Install requirements:
-&nbsp;```
-
  **pip install torch h5py numpy pandas scikit-learn matplotlib**
-
-&nbsp;```
 4. Run:
-
-&nbsp;```
-
 &nbsp;**python traffic\_prediction.py**
-
-&nbsp;```
+&nbsp;
 
 # Dataset Details
 Source: METR-LA public dataset – traffic speed readings from 207 LA highway sensors, 34,272 timesteps.
