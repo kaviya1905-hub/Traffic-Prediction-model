@@ -19,20 +19,20 @@ This project provides a robust, reproducible LSTM baseline for time-series traff
 
 ## Installation & Setup
 1.Clone the repository:
-# git clone https://github.com/kaviya1905-hub/Traffic-Prediction-model.git
+ git clone https://github.com/kaviya1905-hub/Traffic-Prediction-model.git
 3cd traffic-flow-prediction
 2.Download METR-LA dataset:
-## https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
+ https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
 3.Install requirements:
-# pip install torch h5py numpy pandas scikit-learn matplotlib
+pip install torch h5py numpy pandas scikit-learn matplotlib
 4.Run the main script:
-# python traffic_prediction.py
+ python traffic_prediction.py
 5.Repository Structure:
-traffic_prediction.py        # Main code for model & pipeline
-traffic_lstm_model.pth       # Saved trained model weights
-METR-LA.h5                   # Place downloaded dataset here
-<output screenshots>.jpg     # Visual results, predictions, error curves
-README.md                    # Project documentation (this file)
+-traffic_prediction.py       
+-traffic_lstm_model.pth       
+-METR-LA.h5                   
+-<output screenshots>.jpg     
+-README.md                   
 
 ## Model & Preprocessing Details
  -Model: Stacked LSTM (2 layers, 64 hidden units)
