@@ -1,0 +1,9 @@
+{
+  "num_sensors": 50,
+  "input_len": 12,
+  "horizon": 12,
+  "num_features": 7,
+  "train_samples": 18121,
+  "val_samples": 2569,
+  "test_samples": 5162
+}
