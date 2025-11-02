@@ -11,10 +11,10 @@ This project provides a robust, reproducible LSTM baseline for time-series traff
 
 ## Dataset
 -Name: METR-LA (Metropolitan Los Angeles Traffic)
--Source: https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
--Description: 207 freeway sensors recording vehicle speed every 5 mins (~34,272 timepoints)
--Format: HDF5 file (METR-LA.h5)
--Local path example:
+-Source: https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset<br>
+-Description: 207 freeway sensors recording vehicle speed every 5 mins (~34,272 timepoints)<br>
+-Format: HDF5 file (METR-LA.h5)<br>
+-Local path example:<br>
 ## D:\OneDrive\Documents\Traffic prediction model\METR-LA.h5
 
 ## Installation & Setup
@@ -35,10 +35,10 @@ pip install torch h5py numpy pandas scikit-learn matplotlib<br>
 -README.md                   
 
 ## Model & Preprocessing Details
- -Model: Stacked LSTM (2 layers, 64 hidden units)
+ -Model: Stacked LSTM (2 layers, 64 hidden units)<br>
       *Good for learning sequential/temporal patterns in traffic<br>
       *Trained using Mean Squared Error loss (MSE)<br>
- -Preprocessing:
+ -Preprocessing:<br>
       *Data loaded and scaled to with MinMaxScaler​<br>
       *Sliding window: last 12 timesteps predict next 12 (1 hour ahead)<br>
       *Univariate mode (first sensor)—multi-sensor possible with minor code edits<br>
@@ -51,8 +51,8 @@ MAE : 5.77<br>
 RMSE: 12.60
 <img width="699" height="651" alt="Screenshot 2025-11-02 200456" src="https://github.com/user-attachments/assets/e5ca3132-8f31-4529-ada1-a07f08f782a5" /> 
 
- -Saved Model:Model weights: "D:\OneDrive\Documents\Traffic Prediction Model\processed_data"
- -Sample Results and Visualizations:
+ -Saved Model:Model weights: "D:\OneDrive\Documents\Traffic Prediction Model\processed_data"<br>
+ -Sample Results and Visualizations:<br>
       *Training/Validation curves<br>
       *Ground truth vs. predicted speeds for sample sensor(s)<br>
       *Error distribution<br>
