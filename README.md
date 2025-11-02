@@ -28,11 +28,11 @@ pip install torch h5py numpy pandas scikit-learn matplotlib<br>
 4.Run the main script:<br>
  python traffic_prediction.py<br>
 5.Repository Structure:<br>
--traffic_prediction.py  <br>     
--traffic_lstm_model.pth     <br>  
--METR-LA.h5<br>                   
--<output screenshots>.jpg<br>     
--README.md <br>                  
+-traffic_prediction.py      
+-traffic_lstm_model.pth      
+-METR-LA.h5<                   
+-<output screenshots>.jpg     
+-README.md                   
 
 ## Model & Preprocessing Details
  -Model: Stacked LSTM (2 layers, 64 hidden units)
@@ -59,12 +59,12 @@ RMSE: 12.60
 <img width="1539" height="746" alt="Figure_1" src="https://github.com/user-attachments/assets/d4197041-dd0a-48e9-9509-6352072976f8" />
 
 ## Strengths:
-  -Clean, reproducible code with interpretable outputs
-  -Strong baseline for further research (TCN, GNN, multivariate, exogenous feature integration)
+  -Clean, reproducible code with interpretable outputs<br>
+  -Strong baseline for further research (TCN, GNN, multivariate, exogenous feature integration)<br>
 
 ## Limitations:
--Currently univariate—accuracy improves with more sensors/features
--No explicit data augmentation (not common for time series)
+-Currently univariate—accuracy improves with more sensors/features<br>
+-No explicit data augmentation (not common for time series)<br>
 
 ## References:
 Kaaggle - https://www.kaggle.com/datasets/annnnguyen/metr-la-dataset
